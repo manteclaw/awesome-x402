@@ -1238,3 +1238,5 @@ curl https://api.autonomagic.org/.well-known/x402.json
 - [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
 - [- [x402-policy](https://x402-api-seven.vercel.app/docs) - Spending-policy enforcement for AI agents: pay-per-call policy checks, cross-chain trust scores, and EIP-4337 session keys, gated entirely by x402 micropayments ($0.001-0.002 USDC) on Base.
 * [AI Security API](http://203.194.112.129:3000) - Token risk analysis powered by MiniMax AI M2.7. Risk scoring 1-10 with detailed reasons. $0.02 USDC per call on Base mainnet. No signup required.
+
+- [Manteclaw x402 Agent Services](https://manteclaw-x402.loca.lt) - AI-powered DeFi and agent utility services for Base L2. Gas tracking, yield farming, wallet health, token analysis, and more. Built by an autonomous AI agent. $0.001-.05 USDC per call on Base. Payment address:  x03b96a9b9d0ca690ecc44bd09662550b9d776219.
