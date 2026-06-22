@@ -618,11 +618,13 @@ Development tools and utilities for x402.
 
 - [SwarmX (swarms-x402)](https://github.com/SolTwizzy/swarms-x402) - Multi-agent AI orchestration with x402 micropayments. 49 endpoints, 39 MCP tools, knowledge/RAG. ([npm](https://www.npmjs.com/package/swarms-x402)) ([Live](https://swarmx.io))
 - [x402 List](https://x402-list.com) - Agent-first directory of x402 API services with live uptime monitoring and machine-readable discovery for AI agents (JSON API, OpenAPI 3.1, llms.txt). Per-service endpoints, pricing, response time, and uptime charts. ([API](https://x402-list.com/api/v1/services)) ([OpenAPI](https://x402-list.com/api/v1/openapi.json)) ([llms.txt](https://x402-list.com/llms.txt))
+- [SmartFlow Mapper API](https://api.smartflowproai.com) - JSON REST API exposing 22,251+ catalogued x402 endpoints with uptime, payment-success, and facilitator metadata. Free tier (100 req/day) + paid bulk export. ([Live stats](https://api.smartflowproai.com/v1/stats))
 
 ### Security & Analysis
 
 - [Base Token Safety Scanner](https://base-token-scanner.onrender.com) - Free API that analyzes Base chain ERC-20 tokens for rug pull risks, honeypots, ownership issues, and security flags. Returns risk score with detailed flag breakdown. Built for AI agents and DeFi traders. ([GitHub](https://github.com/0xVarius/base-token-scanner)) ([Guide](https://base-token-scanner.onrender.com/guide))
 - [Tate Programs x402 Surface Checks](https://the402.tateprograms.com) - Paid public-surface readiness checks for x402, MPP, Pay.sh, A2A, and agent-skill launches. Four Base mainnet USDC endpoints for x402 launch triage, 402 Index watch, agent-skill trust checks, and A2A payment-surface triage. ([Discovery](https://the402.tateprograms.com/.well-known/x402)) ([Agent Card](https://the402.tateprograms.com/.well-known/agent.json)) ([OpenAPI](https://the402.tateprograms.com/openapi.json)) ([Docs](https://tateprograms.com/x402-surface-check.html))
+- [x402-endpoint-validator](https://github.com/smartflowproai-lang/x402-endpoint-validator) - GitHub Action that validates x402 endpoints in CI: 402 challenge shape, EIP-712 typed data, settlement path, well-known schema. Drop-in YAML, MIT licensed. ([Marketplace](https://github.com/marketplace/actions/x402-endpoint-validator))
 
 
 ## 🧪 Testing & Development
@@ -699,6 +701,10 @@ Written content about x402.
 - [Agentic Economy Timeline](https://www.xpay.sh/resources/agentic-economy-timeline/) - Key milestones from early agent research to production x402 deployments.
 - AI Agents Need x402 - Future of autonomous payments.
 - [mondello.dev](https://mondello.dev) - Romy Mondello's blog on agent-era patterns: x402 endpoint design, agent-discoverable surfaces (`llms.txt`, OpenAPI 3.1 with `x-x402-payment` extensions, MCP), and consulting funnels for agent-native sites. Posts ship with worked examples — the site itself runs 9 paid x402 endpoints on Base mainnet with a 16-tool MCP server. ([llms.txt](https://mondello.dev/llms.txt) | [OpenAPI](https://mondello.dev/openapi.json) | [MCP](https://mondello.dev/api/mcp))
+
+### Newsletters
+
+- [SmartFlow Weekly Intel](https://smartflowproai.substack.com) - Weekly newsletter on x402 network health, facilitator behavior, and endpoint forensics. Free, archived publicly.
 
 ### News Coverage
 
@@ -904,6 +910,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 - [x402watch](https://x402.printmoneylab.com) - Wash-filtered intelligence layer for x402. 36k+ services indexed across Base, Solana, Polygon, and Arbitrum, AI-classified into 33 categories with 8-label buyer detection (organic_user, suspected_wash, self_test, developer, ai_agent, analytics_bot, exchange_user, verifier). 24h trends, anonymized case studies, daily CC0 datasets, x402-native paid API, and MCP server.
 - [CoinGecko x402 Category](https://coingecko.com/en/categories/x402) - Token tracking and market data featuring $180M+ tracked market cap, price charts, trading volumes, and ecosystem token listings.
 - [Demand Intel](https://intel.agent402.app) - Demand-side analytics + cross-rail supply intelligence for the x402 ecosystem. Cross-source demand signal aggregation across 32+ community, builder, content, financial, and jobs sources, weighted by family-count agreement and filtered by query-intent classification. Builder Intel deduplicates builders across CDP Bazaar, Agentic Market, and MPP via `provider_key`. `unified_supply` SQL view spans facilitators. Pulse dashboard with KPI rail, Signal Pipeline visualizer, and AI Executive Summary. Free partner preview, no payment required during preview phase.
+- [SmartFlow Observatory](https://smartflowproai.com) - Public observatory for the x402 endpoint network on Base. Canary probes, settlement tracing, weekly Atlas drill-downs. 22,251 endpoints catalogued. Companion to the [Mapper API](https://api.smartflowproai.com) and [Weekly Intel](https://smartflowproai.substack.com).
 
 ### Growth Metrics
 
